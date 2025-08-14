@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+            <h1>Student Information Form</h1>
+
+            <form></form>
+            
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <label for="fullname">Full Name:</label>
+                <input type="text" name="fullname" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email"><br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" name="password"><br><br>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" name="dob"><br><br>
+
+                <label for="bio">Short Bio:</label>
+                <textarea id="bio" name="bio" rows="4" cols="50" placeholder="Tell us about yourself"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Gender</legend>
+
+                <input type="radio" name="gender" value="male">
+                <label for="male">Male</label><br>
+
+                <input type="radio" name="gender" value="female">
+                <label for="female">Female</label><br>
+
+                <input type="radio" name="gender" value="other">
+                <label for="other">Other</label><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Area of Interest</legend>
+
+                <input type="checkbox" name="interests" value="web">
+                <label for="web">Web Development</label><br>
+
+                <input type="checkbox" name="interests" value="ai">
+                <label for="ai">Artificial Intelligence</label><br>
+
+                <input type="checkbox" name="interests" value="data">
+                <label for="data">Data Science</label><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Programming Skill Level</legend>
+
+                <label for="skill">Rate your Skill (0 to 10):</label><br>
+                <input type="range" id="skill" name="skill" min="0" max="10"><br>
+            </fieldset>
+
+
+        </body>
+    </head>
+</html>
