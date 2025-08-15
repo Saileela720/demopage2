@@ -1,0 +1,13 @@
+.main-div{
+    border: 5px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.child-div{
+    border: 5px solid red;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
