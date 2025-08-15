@@ -1,0 +1,36 @@
+*{
+    border-radius: 45px;
+}
+
+table{
+    border: 3px solid green;
+}
+
+p{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+#p1{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+}
+
+#p2{
+    height: 400px;
+    width: 400px;
+    background-color: yellow;
+}
+
+img{
+    height: 400px;
+    width: 400px;
+}
+
+video{
+    height: 400px;
+    width: 400px;
+}
